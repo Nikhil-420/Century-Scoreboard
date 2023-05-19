@@ -1,0 +1,100 @@
+body{
+    background-color: #277714;
+opacity: 0.8;
+background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #277714 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
+}
+.modal-body p{
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+h4 li{
+    padding: 2px 7px 7px 7px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+
+.ball {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  .ball:active {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+  }
+
+#yellow{
+    background: 
+      radial-gradient(
+        at center top,
+        #ffff00,
+        #89612c
+      ); 
+}
+#green{
+    background: 
+      radial-gradient(
+        at center top,
+        #01f900, #3d8922
+      ); 
+}
+#brown{
+    background: 
+    radial-gradient(
+      at center top,
+      #d37600, #242527
+    ); 
+}
+#blue{
+    background: 
+    radial-gradient(
+      at center top,
+      #1900ff, #2e2934
+    ); 
+}
+#pink{
+    background: 
+    radial-gradient(
+      at center top,
+      #ffc0fe, #c172a7
+    ); 
+}
+#black{
+    background: 
+    radial-gradient(
+      at center top,
+      #3b2121, #000000
+    ); 
+}
+#red{
+    background: 
+    radial-gradient(
+        at center top,
+        #ff0000, #892c2c
+    );
+}
+
+  .shadow {
+    width: 100px;
+    height: 25px;
+    background:
+      radial-gradient(
+        #000f,
+        #fff0 72%
+      );
+    border-radius: 50%;
+  }
+
+  @keyframes exp {
+    0% {opacity: 100%;}
+    50% {opacity: 50%;}
+    90%{opacity: 0%;}
+    100%{opacity: 100%;}
+  }
+  
