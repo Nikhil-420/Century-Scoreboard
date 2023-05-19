@@ -31,16 +31,16 @@
           </div>
         </div>
         <div class="modal-footer justify-content-evenly">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Start</button>
           <button type="button" class="btn btn-primary" onclick="addPlayer()">Add Player</button>
+          <button type="button" class="button-27" data-bs-dismiss="modal">Start</button>
         </div>
       </div>
     </div>
   </div>
     
-    <div class="d-flex flex-column container p-3">
+    <div class="d-flex flex-column container p-3" id="main-container">
         <div style="height: 25vh;">
-            <ol class="ps-3" id="orderedList">
+            <ol class="m-auto" id="orderedList">
                
             </ol>
         </div>
@@ -65,10 +65,10 @@
         </div>
 
         <div class="d-flex justify-content-center justify-content-evenly">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#foulModal">
+            <button type="button" class="button-24" data-bs-toggle="modal" data-bs-target="#foulModal">
                 Foul
               </button>
-            <button onclick="nextTurn()">Next turn</button>
+            <button class="button-3" onclick="nextTurn()">Next turn</button>
         </div>
         <!-- Button trigger modal -->
   
